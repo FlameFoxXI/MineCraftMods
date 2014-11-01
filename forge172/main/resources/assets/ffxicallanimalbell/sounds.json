@@ -1,0 +1,8 @@
+{
+  "bell.animalbell": {
+    "category": "master",
+    "sounds": [
+      {"name": "bell/animalbell", "stream": false }
+    ]
+  }
+}

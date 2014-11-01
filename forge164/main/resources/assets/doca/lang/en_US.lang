@@ -1,0 +1,147 @@
+
+item.SpawnEggDocaSpawnDoggy.name=SpawnDoggy
+item.SpawnEggDocaSpawnKitty.name=SpawnKitty
+item.SpawnEggDocaSpawnSkeleton.name=SpawnSkeleton
+item.SpawnEggDocaSpawnBunny.name=SpawnBunny
+item.SpawnEggDocaSpawnCactuar.name=SpawnCactuar
+item.SpawnEggDocaSpawnEnderman.name=SpawnEnderman
+item.SpawnEggDocaSpawnHumanCat.name=SpawnHumanCat
+item.SpawnEggDocaSpawnGallus.name=SpawnChicken
+item.SpawnEggDocaSpawnZomChan.name=SpawnZombie
+item.CarrierBag.name=CarrierBag
+item.Ribbon.name=Ribbon
+
+tile.DocaChest.name=DocaChest
+
+entity.EntityDoggy.name=DocaDoggy
+entity.EntityKitty.name=DocaKitty
+entity.EntitySkeleton.name=DocaSkeleton
+entity.EntityBunny.name=DocaBunny
+entity.EntityCactuar.name=DocaCactuar
+entity.EntityEnderman.name=DocaEnderman
+entity.EntityHumanCat.name=DocaHumanCat
+
+entity.DocaDog.name=DocaDoggy
+entity.DocaKit.name=DocaKitty
+entity.DocaSke.name=DocaSkeleton
+entity.DocaBun.name=DocaBunny
+entity.DocaCac.name=DocaCactuar
+entity.DocaEnd.name=DocaEnderman
+entity.DocaHCa.name=DocaHumanCat
+entity.DocaChk.name=DocaChicken
+entity.DocaZom.name=DocaZombie
+
+entity.Doca.DocaDog.name=DocaDoggy
+entity.Doca.DocaKit.name=DocaKitty
+entity.Doca.DocaSke.name=DocaSkeleton
+entity.Doca.DocaBun.name=DocaBunny
+entity.Doca.DocaCac.name=DocaCactuar
+entity.Doca.DocaEnd.name=DocaEnderman
+entity.Doca.DocaHCa.name=DocaHumanCat
+entity.Doca.DocaChk.name=DocaChicken
+entity.Doca.DocaZom.name=DocaZombie
+
+itemGroup.DogCatPlusMod=DogCatPlusMod's Block / Item
+
+container.DocaChest=PetChest
+
+doca.tag.type=Pet Type
+doca.tag.name=Pet Name
+doca.tag.owner=Pet Owner
+doca.tag.empty=Carry bag empty
+doca.tag.ribbon.name=Sub Owner
+doca.tag.ribbon.empty=Sub Owners empty
+
+doca.gui.setting.title=Setting Window
+doca.gui.setting.name=NAME
+doca.gui.setting.texture=Texture
+doca.gui.setting.callor=Callor's Color
+doca.gui.setting.mode=Combat Mode
+doca.gui.setting.size=Model Size
+
+doca.chat.message.ModeStatusCome=DocaModMessage: ModeStatusCome
+doca.chat.message.ModeStatusDistance=DocaModMessage: ModeStatusDistance
+doca.chat.message.ModeStatusDown=DocaModMessage: ModeStatusDown
+doca.chat.message.ModeStatusFree=DocaModMessage: ModeStatusFree
+doca.chat.message.Infoation=DocaModMessage:
+doca.chat.message.InfoationOver=DocaModMessage: display number is greater than 20, will stop the process.
+doca.chat.message.WaitModeON=DocaModMessage: WaitModeON
+doca.chat.message.WaitModeOFF=DocaModMessage: WaitModeOFF
+
+doca.configuration.setting.item_SpawnDocaID=please set the ItemID for Egg.
+doca.configuration.setting.item_CarrierBagID=please set the ItemID for CarrierBag.
+doca.configuration.setting.item_RibbonID=please set the ItemID for Ribbon.
+doca.configuration.setting.item_CarrierBagReuse=please set the spawnCarrierBagReuse. true: empty bag return in inventory. false: use at once.
+doca.configuration.setting.block_DocaChestID=please set the blockID for DogCatPlusChest
+doca.configuration.setting.tab_AddDocaCreativeTab=please set the AddDocaCreativeTab. true: DocaCreativeTab add to Item/Block. false: MiscTab add to Item/Block.
+doca.configuration.setting.entity_type_OldType=please set the entity type OldType.
+doca.configuration.setting.entity_use_Skeleton=please set the mob_UseEntitySkeleton. true: use it. false; dont use it(dont regist Entity).
+doca.configuration.setting.entity_use_Bunny=please set the mob_UseEntityBunny. true: use it. false; dont use it(dont regist Entity).
+doca.configuration.setting.entity_use_Cactuar=please set the mob_UseEntityCactuar. true: use it. false; dont use it(dont regist Entity).
+doca.configuration.setting.entity_use_Enderman=lease set the mob_UseEntityEnderman. true: use it. false; dont use it(dont regist Entity).
+doca.configuration.setting.entity_use_HumanCat=please set the mob_UseEntityHumanCat. true: use it. false; dont use it(dont regist Entity).
+doca.configuration.setting.entity_DoggyID=please set the EntityID for Doogy. If you are using the Forge, automatically get a uniqueID if set to 0.
+doca.configuration.setting.entity_KittyID=please set the EntityID for Kitty. If you are using the Forge, automatically get a uniqueID if set to 0.
+doca.configuration.setting.entity_SkeletonID=please set the EntityID for Skeleton. If you are using the Forge, automatically get a uniqueID if set to 0.
+doca.configuration.setting.entity_BunnyID=please set the EntityID for Bunny. If you are using the Forge, automatically get a uniqueID if set to 0.
+doca.configuration.setting.entity_CactuarID=please set the EntityID for Cactuar. If you are using the Forge, automatically get a uniqueID if set to 0.
+doca.configuration.setting.entity_EndermanID=please set the EntityID for Enderman. If you are using the Forge, automatically get a uniqueID if set to 0.
+doca.configuration.setting.entity_HumanCatID=please set the EntityID for HumanCat. If you are using the Forge, automatically get a uniqueID if set to 0.
+
+doca.configuration.setting.mob_GrowAgeDoggy=please set the growAgeDoggy. true: dont grow the age. false: grow the age.
+doca.configuration.setting.mob_GrowAgeKitty=please set the growAgeKitty. true: dont grow the age. false: grow the age.
+doca.configuration.setting.mob_GrowAgeSkeleton=please set the growAgeSkeleton. true: dont grow the age. false: grow the age.
+doca.configuration.setting.mob_GrowAgeBunny=please set the growAgeBunny. true: dont grow the age. false: grow the age.
+doca.configuration.setting.mob_GrowAgeCactuar=please set the growAgeCactuar. true: dont grow the age. false: grow the age.
+doca.configuration.setting.mob_GrowAgeEnderman=please set the growAgeEnderman. true: dont grow the age. false: grow the age.
+doca.configuration.setting.mob_GrowAgeHumanCat=please set the growAgeHumanCat. true: dont grow the age. false: grow the age.
+doca.configuration.setting.mob_GrowAgeChichen=please set the growAgeChichen. true: dont grow the age. false: grow the age.
+doca.configuration.setting.mob_GrowAgeZombie=please set the growAgeZombie. true: dont grow the age. false: grow the age.
+
+doca.configuration.setting.show_LifeBar=please set the showLifeBar. true: show LifeBar for mob's top. false: hidden LifeBar.
+doca.configuration.setting.show_NameBar=please set the showNameBar. true: show NameBar for mob's top. false: hidden NameBar.
+doca.configuration.setting.show_NameColor=please set the showNameColor. To set when you want to change the Color to NameColor.
+doca.configuration.setting.show_BarBackGroundStrength=please set the showBarBackGroundStrength. To set when you want to change the concentration to BarBackGround.
+doca.configuration.setting.show_BarBackGroundColor=please set the showBarBackGroundColor. To set when you want to change the color to BarBackGround.
+doca.configuration.setting.show_StatusIcon=please set the showStatusIcon. true: show StatusIcon for mob's top. false: hidden StatusIcon.
+doca.configuration.setting.show_StatusIconType=please set the showStatusIconType. 0=Graphical / 1=Text".
+
+doca.configuration.setting.func_particleON=please set the particleON. true: will be displayed particle for mobs mode. false: dont displayed particle.
+doca.configuration.setting.func_particleStep=please set the particleStep. if particleON is true. > 0:show particle. 1:more show particle. 2:most show particle.
+doca.configuration.setting.func_CreeperAlertON=please set the CreeperAler. true: growl nearby Creeper. false: nothing.
+doca.configuration.setting.func_StopNolife=please set the StopNolife. true: mob not help when hitpoint is at 1 lower.
+doca.configuration.setting.func_Speed=please set the mobStopNolife. true:mobs speed for quickly. false: mobs moving speed for vanilla.
+doca.configuration.setting.func_ItemPickUpON=please set the temPickUp. true:pick up the items once in a while.
+doca.configuration.setting.func_ItemPickUpWidely=please set the itemPickUpWidely. pick up the items for range size: 1-30. default:10.
+doca.configuration.setting.func_ItemPickUpOffEquipItem=please set the ItemPickUpOffEquipItem. true: dont pickup equipment Item. false: pickup equipment Item.
+doca.configuration.setting.func_ItemPickUpOffItemID=please set the ItemPickUpOffItem. true: dont pickup setting to "func_ItemPickUpOffItemIDs" item. false: pickup Item.
+doca.configuration.setting.func_ItemPickUpOffItemIDs=please set the ItemPickUpOffItemIDs. 0-499999. not supported MataData(ItemDamage)" e.x) 100,101,102
+doca.configuration.setting.func_MoveSquareToHomePoint=please set the MoveSquareToHomePoint. move range size for wait mode: 5-15. default:10.
+doca.configuration.setting.func_ItemPopUpON=please set the func_HowlingMoonDoggy. true:looking for the items and add inventory once in a while.
+doca.configuration.setting.func_HowlingMoonDoggy=please set the HowlingMoonDoggy. true: doggy is howling moon at midnight.
+doca.configuration.setting.func_HealingBed=please set the func_HealingBed: mob sleep a bed when hitpoint is at lower. false:dont sleep.
+doca.configuration.setting.func_EmotionBalloonON=please set the emotionBalloonON. true: mob popup emotion balloon.
+doca.configuration.setting.func_AccessPermissionOPS=pet inventory add sccess permission for OP user.
+
+doca.configuration.setting.attack_AdditionalEffectON=please set the AdditionalEffect. true: add effect to the attack. false: no effect.
+doca.configuration.setting.attack_PetInvincibleOFF=please set the PetInvincible Mode OFF. true: Enable the damage, attack Strength 2. false:Disable the damage, attack Strength 4.
+doca.configuration.setting.attack_PeacefulON=please set the attack_PeacefulON. true: mobs loves peace. nobody attacks. false: ordinary mob.
+doca.configuration.setting.attack_TameableON=please set the attack_TameableON. true: Do not attack Ocelot and Wolf, Maid, and other Tameable mob. false: ordinary mob.
+doca.configuration.setting.attack_EntityForWoodSpirit=please set the setAttackEntityForWoodSpirit.
+doca.configuration.setting.attack_FriendlyEntity=please set the attack_FriendlyEntity.
+
+doca.configuration.setting.convert_NameString=convert Names. Substitutions when using multi-byte. format->beforeString:afterString,beforeString:afterString,
+
+doca.configuration.setting.texture_SizeMaxDoggy=please set the texture max size for Doggy.
+doca.configuration.setting.texture_SizeMaxKitty=please set the texture max size for Kitty.
+doca.configuration.setting.texture_SizeMaxSkeleton=please set the texture max size for Skeleton.
+doca.configuration.setting.texture_SizeMaxBunny=please set the texture max size for Bunny.
+doca.configuration.setting.texture_SizeMaxCactuar=please set the texture max size for Cactuar.
+doca.configuration.setting.texture_SizeMaxEnderman=please set the texture max size for Enderman.
+doca.configuration.setting.texture_SizeMaxHumanCat=please set the texture max size for HumanCat.
+doca.configuration.setting.texture_SizeMaxChicken=please set the texture max size for Chicken.
+doca.configuration.setting.texture_SizeMaxZombie=please set the texture max size for Zombie.
+doca.configuration.setting.texture_ItemEgg=SpawnEgg texture name.
+doca.configuration.setting.texture_ItemCarrierBag=CarrierBag texture name.
+doca.configuration.setting.texture_ItemRibbon=Ribbon texture name.
+doca.configuration.setting.texture_TileEntityChest=PetChes texture name.

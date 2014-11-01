@@ -1,0 +1,147 @@
+
+item.SpawnEggDocaSpawnDoggy.name=いぬのたまご
+item.SpawnEggDocaSpawnKitty.name=ねこのたまご
+item.SpawnEggDocaSpawnSkeleton.name=スケルトンのたまご
+item.SpawnEggDocaSpawnBunny.name=ウサギのたまご
+item.SpawnEggDocaSpawnCactuar.name=サボテンのたまご
+item.SpawnEggDocaSpawnEnderman.name=エンダーマンのたまご
+item.SpawnEggDocaSpawnHumanCat.name=猫人間のたまご
+item.SpawnEggDocaSpawnGallus.name=ニワトリのたまご
+item.SpawnEggDocaSpawnZomChan.name=ゾンビのたまご
+item.CarrierBag.name=キャリーバッグ
+item.Ribbon.name=リボン
+
+tile.DocaChest.name=ペット用チェスト
+
+entity.EntityDoggy.name=いぬ
+entity.EntityKitty.name=ねこ
+entity.EntitySkeleton.name=すけるとん
+entity.EntityBunny.name=うさぎ
+entity.EntityCactuar.name=さぼてん
+entity.EntityEnderman.name=えんだーまん
+entity.EntityHumanCat.name=ねこにんげん
+
+entity.DocaDog.name=いぬ
+entity.DocaKit.name=ねこ
+entity.DocaSke.name=すけるとん
+entity.DocaBun.name=うさぎ
+entity.DocaCac.name=さぼてん
+entity.DocaEnd.name=えんだーまん
+entity.DocaHCa.name=ねこにんげん
+entity.DocaChk.name=にわとり
+entity.DocaZom.name=ぞんび
+
+entity.Doca.DocaDog.name=いぬ
+entity.Doca.DocaKit.name=ねこ
+entity.Doca.DocaSke.name=すけるとん
+entity.Doca.DocaBun.name=うさぎ
+entity.Doca.DocaCac.name=さぼてん
+entity.Doca.DocaEnd.name=えんだーまん
+entity.Doca.DocaHCa.name=ねこにんげん
+entity.Doca.DocaChk.name=にわとり
+entity.Doca.DocaZom.name=ぞんび
+
+itemGroup.DogCatPlusMod=DogCatPlus 追加アイテム＆ブロック
+
+container.DocaChest=ペット用チェスト
+
+doca.tag.type=ペット種類
+doca.tag.name=ペット名
+doca.tag.owner=オーナー
+doca.tag.empty=空のキャリーバッグ
+doca.tag.ribbon.name=サブオーナー
+doca.tag.ribbon.empty=空のサブオーナー情報
+
+doca.gui.setting.title=ペット設定画面
+doca.gui.setting.name=名前
+doca.gui.setting.texture=テクスチャ
+doca.gui.setting.callor=首輪色
+doca.gui.setting.mode=戦闘モード
+doca.gui.setting.size=サイズ
+
+doca.chat.message.ModeStatusCome=DocaModMessage: 招集モード！
+doca.chat.message.ModeStatusDistance=DocaModMessage: 退避モード！
+doca.chat.message.ModeStatusDown=DocaModMessage: 待機モード！
+doca.chat.message.ModeStatusFree=DocaModMessage: フリーモード！
+doca.chat.message.Infoation=DocaModMessage:
+doca.chat.message.InfoationOver=DocaModMessage: 20件を超えたため表示を打ち切ります！
+doca.chat.message.WaitModeON=DocaModMessage: ウェイトモードをオンに設定しました！
+doca.chat.message.WaitModeOFF=DocaModMessage: ウェイトモードをオフに設定しました！
+
+doca.configuration.setting.item_SpawnDocaID=スポーンエッグのアイテムID
+doca.configuration.setting.item_CarrierBagID=キャリーバッグのアイテムID
+doca.configuration.setting.item_RibbonID=リボンのアイテムID
+doca.configuration.setting.item_CarrierBagReuse=キャリーバッグの再使用許可するか。true：空のバッグとして再使用できる / false：1度きりで使用すると消える
+doca.configuration.setting.block_DocaChestID=ペット専用チェストのブロックID
+doca.configuration.setting.tab_AddDocaCreativeTab=このMOD専用のクリエイティブタブにアイテムを追加するか。true：専用クリエイティブタブに追加 / false：Miscタブに追加
+doca.configuration.setting.entity_type_OldType=データの引き継ぎ用に旧のEntityIDの登録を使用するか。true：旧タイプで登録しEntityIDを消費する(一部追加されないMOBがあります)。false：Forge用のEntityIDを使用するためEntityIDを消費しない
+doca.configuration.setting.entity_use_Skeleton=ペットのスケルトンをEntityに登録するか。true：登録し使えるようにする / false：登録しない。
+doca.configuration.setting.entity_use_Bunny=ペットのウサギをEntityに登録するか。true：登録し使えるようにする / false：登録しない。
+doca.configuration.setting.entity_use_Cactuar=ペットのサボテンをEntityに登録するか。true：登録し使えるようにする / false：登録しない。
+doca.configuration.setting.entity_use_Enderman=ペットのエンダーマンをEntityに登録するか。true：登録し使えるようにする / false：登録しない。
+doca.configuration.setting.entity_use_HumanCat=ペットの猫人間をEntityに登録するか。true：登録し使えるようにする / false：登録しない。
+doca.configuration.setting.entity_DoggyID=犬のEntityID。Forgeで0を設定した場合は自動で空いているEntityIDを探す。(entity_type_OldTypeがfalseの場合は参照されない)
+doca.configuration.setting.entity_KittyID=猫のEntityID。Forgeで0を設定した場合は自動で空いているEntityIDを探す。(entity_type_OldTypeがfalseの場合は参照されない)
+doca.configuration.setting.entity_SkeletonID=スケルトンのEntityID。Forgeで0を設定した場合は自動で空いているEntityIDを探す。(entity_type_OldTypeがfalseの場合は参照されない)
+doca.configuration.setting.entity_BunnyID=ウサギのEntityID。Forgeで0を設定した場合は自動で空いているEntityIDを探す。(entity_type_OldTypeがfalseの場合は参照されない)
+doca.configuration.setting.entity_CactuarID=サボテンのEntityID。Forgeで0を設定した場合は自動で空いているEntityIDを探す。(entity_type_OldTypeがfalseの場合は参照されない)
+doca.configuration.setting.entity_EndermanID=エンダーマンのEntityID。Forgeで0を設定した場合は自動で空いているEntityIDを探す。(entity_type_OldTypeがfalseの場合は参照されない)
+doca.configuration.setting.entity_HumanCatID=猫人間のEntityID。Forgeで0を設定した場合は自動で空いているEntityIDを探す。(entity_type_OldTypeがfalseの場合は参照されない)
+
+doca.configuration.setting.mob_GrowAgeDoggy=犬を子供のままにするか。true：子供のまま / false：スポーンからマイクラ1日で大人になる。
+doca.configuration.setting.mob_GrowAgeKitty=猫を子供のままにするか。true：子供のまま / false：スポーンからマイクラ1日で大人になる。
+doca.configuration.setting.mob_GrowAgeSkeleton=スケルトンを子供のままにするか。true：子供のまま / false：スポーンからマイクラ1日で大人になる。
+doca.configuration.setting.mob_GrowAgeBunny=ウサギを子供のままにするか。true：子供のまま / false：スポーンからマイクラ1日で大人になる。
+doca.configuration.setting.mob_GrowAgeCactuar=サボテンを子供のままにするか。true：子供のまま / false：スポーンからマイクラ1日で大人になる。
+doca.configuration.setting.mob_GrowAgeEnderman=エンダーマンを子供のままにするか。true：子供のまま / false：スポーンからマイクラ1日で大人になる。
+doca.configuration.setting.mob_GrowAgeHumanCat=猫人間を子供のままにするか。true：子供のまま / false：スポーンからマイクラ1日で大人になる。
+doca.configuration.setting.mob_GrowAgeChichen=ニワトリを子供のままにするか。true：子供のまま / false：スポーンからマイクラ1日で大人になる。
+doca.configuration.setting.mob_GrowAgeZombie=ゾンビを子供のままにするか。true：子供のまま / false：スポーンからマイクラ1日で大人になる。
+
+doca.configuration.setting.show_LifeBar=ライフゲージを表示するか。true：頭上に表示する / false：表示しない
+doca.configuration.setting.show_NameBar=ネームバーを表示するか。true：頭上に表示する / false：表示しない
+doca.configuration.setting.show_NameColor=ネームカラーの色設定(int)
+doca.configuration.setting.show_BarBackGroundStrength=ライフゲージ＆ネームバーの背景の濃淡(0-255)
+doca.configuration.setting.show_BarBackGroundColor=ライフゲージ＆ネームバーの背景の色設定(int)
+doca.configuration.setting.show_StatusIcon=ペットのステータスアイコンを表示するか。(ライフゲージ＆ネームバー両方表示しない場合は表示されません) true：頭上に表示する / false：表示しない
+doca.configuration.setting.show_StatusIconType=ペットのステータスアイコンを表示するか。true：画像タイプで表示 / false：テキストタイプで表示
+
+doca.configuration.setting.func_particleON=戦闘モードがノーマル以外の場合にそれに合ったパーティクルを表示するか。true：表示する / false：表示しない
+doca.configuration.setting.func_particleStep=パーティクル表示間隔。「0-2」デフォルト:0(2は多く、0は少ない)
+doca.configuration.setting.func_CreeperAlertON=クリパーアラートを行うか(犬猫のみクリーパーが近くにいるとうなる)。true：オン / false：オフ
+doca.configuration.setting.func_StopNolife=ライフが1以下になった場合に何もしなくなる(現在未使用)。
+doca.configuration.setting.func_Speed=ペットの移動スピード増加。true：バニラスピードの約1.2倍 / false：バニラのスピード
+doca.configuration.setting.func_ItemPickUpON=ノーマルモード時以外アイテムを拾う機能。true：オン / false：オフ
+doca.configuration.setting.func_ItemPickUpWidely=アイテムを拾う機能の捜索範囲 「1-30」デフォルト:10.
+doca.configuration.setting.func_ItemPickUpOffEquipItem=装備できるアイテムを拾うかどうか。true：拾わない / false：拾う
+doca.configuration.setting.func_ItemPickUpOffItemID="func_ItemPickUpOffItemIDs"で設定したアイテムを拾うかどうか。true：拾わない / false：拾う
+doca.configuration.setting.func_ItemPickUpOffItemIDs=ペットに拾わせないアイテムID. 範囲：0-499999. メタデータは未対応。e.x) 100,101,102
+doca.configuration.setting.func_MoveSquareToHomePoint=ウェイトモード設定時の中心からの移動範囲。「5-15」デフォルト:10.
+doca.configuration.setting.func_ItemPopUpON=ノーマルモード時以外アイテムをどこからか見つけてくる機能。true：オン / false：オフ
+doca.configuration.setting.func_HowlingMoonDoggy=犬モデル時のみ夜の0時に遠吠えをする機能。true：オン / false：オフ
+doca.configuration.setting.func_HealingBed=ウェイトモード中にライフが半分以下の場合にベッドでライフを回復するか。true：オン / false：オフ
+doca.configuration.setting.func_EmotionBalloonON=たまにモーションバルーンを表示させるか。true：表示する / false：表示しない
+doca.configuration.setting.func_AccessPermissionOPS=ペットのインベントリをOPユーザが開けるようにします
+
+doca.configuration.setting.attack_AdditionalEffectON=ペットの追加攻撃をオンにするか。true：オン / false：オフ
+doca.configuration.setting.attack_PetInvincibleOFF=ノーマルモード時以外の被ダメージ無効/攻撃力を変更するか。true: 攻撃力が2になる＆すべての被ダメージを無効にしない. false:攻撃力が4になる＆すべての被ダメージが無効になる。
+doca.configuration.setting.attack_PeacefulON=ピースフルモードにするか。true：すべてのEntityに対して攻撃しない / false：通常のEntityに対して攻撃する
+doca.configuration.setting.attack_TameableON=テイムできるEntityに攻撃しないか(テイムされているペットにはもともと攻撃をしません)。true：攻撃しない / false：攻撃する
+doca.configuration.setting.attack_EntityForWoodSpirit=木モード時に攻撃対象とするEntity。フレンドリー設定と内部処理ではじいているものが優先されます(空中に浮いているEntityを追加すると追い続けるのは仕様となります)
+doca.configuration.setting.attack_FriendlyEntity=すべてにおいて攻撃しないEntity。(コウモリ、ガスト、ブレイズ、エンダードラゴン、ウィザーは内部処理ではじいているため登録の必要ありません)
+
+doca.configuration.setting.convert_NameString=マルチバイト用のペットの名前の置換 format->beforeString:置換後の名前,beforeString:置換後の名前,
+
+doca.configuration.setting.texture_SizeMaxDoggy=犬のテクスチャの最大サイズ
+doca.configuration.setting.texture_SizeMaxKitty=猫のテクスチャの最大サイズ
+doca.configuration.setting.texture_SizeMaxSkeleton=スケルトンのテクスチャの最大サイズ
+doca.configuration.setting.texture_SizeMaxBunny=ウサギのテクスチャの最大サイズ
+doca.configuration.setting.texture_SizeMaxCactuar=サボテンのテクスチャの最大サイズ
+doca.configuration.setting.texture_SizeMaxEnderman=エンダーマンのテクスチャの最大サイズ
+doca.configuration.setting.texture_SizeMaxHumanCat=猫人間のテクスチャの最大サイズ
+doca.configuration.setting.texture_SizeMaxChicken=ニワトリのテクスチャの最大サイズ
+doca.configuration.setting.texture_SizeMaxZombie=ゾンビのテクスチャの最大サイズ
+doca.configuration.setting.texture_ItemEgg=スポーンエッグのテクスチャ名
+doca.configuration.setting.texture_ItemCarrierBag=キャリーバッグのテクスチャ名
+doca.configuration.setting.texture_ItemRibbon=リボンのテクスチャ名
+doca.configuration.setting.texture_TileEntityChest=ペット用チェストのテクスチャ名
